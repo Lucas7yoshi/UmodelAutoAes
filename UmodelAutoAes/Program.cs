@@ -6,7 +6,6 @@ namespace UmodelAutoAes
 {
     class Program
     {
-        //v12194873298472390847
         const string aesurl = @"https://lucas7yoshi.github.io/aes.html";
         static void Main(string[] args)
         {
