@@ -3,7 +3,7 @@
 # How to use
 - Download the exe from the below badge
 - Move the exe to your umodel folder
-- If you have a bat file (and if you don't you can use the example.bat, remove your -aes argument and replace "umodel.exe" with "UmodelAutoAes.exe"
+- If you have a bat file (and if you don't you can use the example.bat, just replace the path), remove your -aes argument and replace "umodel.exe" with "UmodelAutoAes.exe"
 - When running your bat file, it will auto grab the aes key from a page i maintain, which will then be fed into umodel (in the same folder) alongside your other arguments in your bat file.
 
 # Maintenance
