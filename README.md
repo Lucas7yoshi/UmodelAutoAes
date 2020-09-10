@@ -15,6 +15,6 @@ The latest version can be downloaded at the link below:
 [![Build status](https://ci.appveyor.com/api/projects/status/tvhij08a6cotfuta?svg=true)](https://ci.appveyor.com/project/Lucas/umodelautoaes/build/artifacts)
 
 Or alternatively:
-https://github.com/Lucas7yoshi/UmodelAutoAes/releases/tag/1.0.0
+https://github.com/Lucas7yoshi/UmodelAutoAes/releases/tag/1.1.0
 
 ignore this line, tricking a build
