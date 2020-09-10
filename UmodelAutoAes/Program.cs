@@ -1,4 +1,4 @@
-﻿using System.Net;
+using System.Net;
 using System.Diagnostics;
 using System;
 
@@ -6,7 +6,7 @@ namespace UmodelAutoAes
 {
     class Program
     {
-        const string aesurl = @"https://lucas7yoshi.github.io/aes.html";
+        const string aesurl = @"https://fnbot.shop/api/aes";
         static void Main(string[] args)
         {
             var wc = new WebClient();
@@ -14,7 +14,7 @@ namespace UmodelAutoAes
             var aes = wc.DownloadString(aesurl).Split(new[] { '\r', '\n' })[0].Replace(" ", "");
             var p = new Process();
             p.StartInfo.FileName = "umodel.exe";
-            p.StartInfo.Arguments = $"-aes={aes} {string.Join(" ", args)}";
+            p.StartInfo.Arguments = $"-aes=0x{aes} {string.Join(" ", args)}";
             p.Start();
         }
     }
